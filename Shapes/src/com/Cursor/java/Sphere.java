@@ -8,7 +8,7 @@ public class Sphere extends SpaceShape {
         this.radius = radius;
     }
 
-    public void getSphere (double radius, Vertex3D main) {
+    public void Sphere (double radius, Vertex3D main) {
         vertexListOfVertices.add(main);
         this.radius = radius;
 
