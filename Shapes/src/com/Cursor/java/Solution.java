@@ -12,29 +12,29 @@ public class Solution {
         List<Shape> theMainShape = new ArrayList<>();
 
         Vertex2D radius = new Vertex2D(4, 9);
-        Rectangle getRectangle = new Rectangle(radius, 2, 4);
+        Rectangle Rectangle = new Rectangle(radius, 2, 4);
 
         Vertex2D firstVerticesOfTriangle  = new  Vertex2D(1, 3);
         Vertex2D secondVerticesOfTriangle = new  Vertex2D(4, 8);
         Vertex2D thirdVerticesOfTriangle = new  Vertex2D(5, 2);
-        Triangle getTriangle = new Triangle(firstVerticesOfTriangle, secondVerticesOfTriangle, thirdVerticesOfTriangle);
+        Triangle Triangle = new Triangle(firstVerticesOfTriangle, secondVerticesOfTriangle, thirdVerticesOfTriangle);
 
         Circle getCircle = new Circle(radius, 8);
 
         Vertex3D main = new  Vertex3D(4, 7, 1);
-        Sphere getSphere = new Sphere(main, 5);
+        Sphere Sphere = new Sphere(main, 5);
 
-        Cuboid getCuboid = new Cuboid(main, 4, 3.5, 8);
+        Cuboid Cuboid = new Cuboid(main, 4, 3.5, 8);
 
-        SquarePyramid getPyramid = new SquarePyramid(main, 5, 3);
+        SquarePyramid Pyramid = new SquarePyramid(main, 5, 3);
 
 
-        theMainShape.add(getRectangle);
-        theMainShape.add(getTriangle);
-        theMainShape.add(getCircle);
-        theMainShape.add(getSphere);
-        theMainShape.add(getCuboid);
-        theMainShape.add(getPyramid);
+        theMainShape.add(Rectangle);
+        theMainShape.add(Triangle);
+        theMainShape.add(Circle);
+        theMainShape.add(Sphere);
+        theMainShape.add(Cuboid);
+        theMainShape.add(Pyramid);
 
         for (Shape figures : theMainShape) {
             System.out.println(figures);
